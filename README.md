@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Rust: exhausting an iterator. The `bug.rs` file contains code that attempts to access elements of a vector using an iterator after the iterator has been fully consumed. This results in a runtime panic. The `bugSolution.rs` file provides a corrected version.
